@@ -1,0 +1,26 @@
+# SpeedNetworkMapper - Requirements
+# Ultra-fast network discovery tool with minimal dependencies
+
+# Core networking (built-in Python modules)
+# socket - built-in
+# asyncio - built-in (Python 3.7+)
+# ipaddress - built-in (Python 3.3+)
+# subprocess - built-in
+# threading - built-in
+# concurrent.futures - built-in (Python 3.2+)
+
+# Optional enhancements (will be installed if available)
+# Enhanced terminal output
+colorama>=0.4.6
+
+# Better progress visualization
+tqdm>=4.64.0
+
+# Enhanced JSON handling
+orjson>=3.8.0
+
+# Network utilities (optional)
+netifaces>=0.11.0
+
+# Performance monitoring
+psutil>=5.9.0
